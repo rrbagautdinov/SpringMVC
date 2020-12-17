@@ -15,7 +15,7 @@ public class Launcher {
 
         WebAppContext webAppContext = new WebAppContext();
         webAppContext.setContextPath("/app");
-        // http://localhost:8189/app/hello
+        // http://localhost:8189/app/products/all
         webAppContext.setWar(location.toExternalForm());
 
         server.setHandler(webAppContext);
